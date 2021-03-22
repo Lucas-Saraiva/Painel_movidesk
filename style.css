@@ -1,0 +1,46 @@
+header {
+    width: 400;
+    height: 100;
+    background: rgb(255, 255, 255);
+   
+   }
+   
+     #header {
+   
+       width: 400;
+       height: 100;
+       background:rgb(255, 255, 255);
+     }
+
+     #logo {
+         width:250;
+         margin-top: -60px;
+     }
+   
+     #base {
+   
+     position: absolute;
+     left:55%;
+     top:63%;
+     }
+   
+     #voltar {
+   
+     position: absolute;
+     left:33%;
+     top:63%;
+     }
+   
+     #imgvolt {
+   
+       position: absolute;
+       left:30%;
+           top:45%;
+     }
+   
+     #imgbase {
+   
+       position: absolute;
+       left:55%;
+       top:45%;
+     }
