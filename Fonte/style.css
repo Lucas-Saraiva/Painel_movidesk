@@ -25,12 +25,14 @@ header {
         position: absolute;
         left:54%;
         top:63%;
+        color: #003de4;
      }
    
      #voltar {
         position: absolute;
         left:33%;
         top:63%;
+        color: #003de4;
      }
    
      #imgvolt {
