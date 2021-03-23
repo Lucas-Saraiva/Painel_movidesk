@@ -8,12 +8,16 @@
         left:30%;
         top:45%;
         width: 150;
+        display: block;
+        margin:0 auto;
      }
 
      #msgvolt {
       position: absolute;
       left:33%;
       top:65%;
+      display: block;
+      margin:0 auto;
      }
    
      #imgbase {
@@ -49,4 +53,20 @@
 
    #background {
       background-size: 100%;
+   }
+
+   ol li {
+      list-style-type: none;
+   }
+
+   input {
+      padding: 0;
+      border: none;
+      background: none;
+      font-style: italic;
+      font-weight: bold;
+      color: aliceblue;
+      background: #01396e;
+      text-decoration: underline;
+        
    }
