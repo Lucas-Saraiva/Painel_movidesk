@@ -70,3 +70,8 @@
       text-decoration: underline;
         
    }
+
+   #logopequena {
+      position: absolute;
+      right: 0%;
+   }
