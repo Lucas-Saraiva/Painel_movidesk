@@ -1,27 +1,111 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
 
-  <img id="logo" src="../imagens/logo_process.png">
+  <style>
+
+#logo {
+   width:250;
+   margin-top: -60px;
+}
+
+#imgvolt {
+   position: absolute;
+   left:30%;
+   top:45%;
+   width: 150;
+   display: block;
+   margin:0 auto;
+}
+
+#msgvolt {
+ position: absolute;
+ left:33%;
+ top:65%;
+ display: block;
+ margin:0 auto;
+}
+
+#imgbase {
+   position: absolute;
+   left:55%;
+   top:45%;
+   width: 150;
+}
+
+footer {
+   font-style: italic;
+   font-weight: bold;
+   color: aliceblue;
+   background: #01396e;
+   position: fixed;
+   bottom: 0px;
+   left: 0;
+   width: 100%;
+   height: 100px;
+}
+
+#bairro {
+   color: aliceblue;
+}
+
+#rua {
+ color: aliceblue;
+}
+
+#site {
+ color: aliceblue;
+}
+
+#background {
+ background-size: 100%;
+}
+
+ol li {
+ list-style-type: none;
+}
+
+input {
+ padding: 0;
+ border: none;
+ background: none;
+ font-style: italic;
+ font-weight: bold;
+ color: aliceblue;
+ background: #01396e;
+ text-decoration: underline;
+   
+}
+
+#logopequena {
+ position: absolute;
+ right: 0%;
+}
+
+  </style>
 
 </head>
-<body background="../imagens/imagem_fundo.png" id="background"> 
 
-  <a href="https://suporte.processit.com.br/"><img src="../imagens/icone_voltar.png" title="Painel Movidesk" width="125"
+<img id="logo" src="https://i.ibb.co/gTKrjZN/logo-process.png">
+
+<body background="https://i.ibb.co/YhnnxHX/imagem-fundo.png" id="background"> 
+
+  <a href="https://suporte.processit.com.br/"><img src="https://i.ibb.co/H2pvXdY/icone-voltar.png" title="Painel Movidesk" width="125"
   alt="icone para voltar para o painel " id="imgvolt">
 
-  <a href="http://suporte.processit.com.br/kb/pt-br/article/7246/base-de-conhecimento"><img src="../imagens/icone_base.png" title="Base de Conhecimento" width="110"
+  <a href="http://suporte.processit.com.br/kb/pt-br/article/7246/base-de-conhecimento"><img src="https://i.ibb.co/c1YFb6D/icone-base.png" title="Base de Conhecimento" width="110"
   alt="icone para voltar para o painel " id="imgbase">
 
   <footer class="fixar-rodape">
+    <img src="../imagens/logo_pequena_sem_fundo.png" title="logo pequena" id="logopequena" width="170" height="130">
     <p><a href="https://www.processit.com.br/"></a>
-        <a href="https://www.processit.com.br/" id="site"> Process IT</a> 
-        <br>
-        <a href="https://www.google.com.br/maps/search/Avenida+das+na%C3%A7%C3%B5es+unidas,+18.001+-+CJ.+1808/@-23.5925779,-46.6942171,17z/data=!3m1!4b1" id="rua"> Avenida das nações unidas, 18.001 - CJ. 1808</a>
-        <br>
-        <a href="https://www.google.com.br/maps/place/Ch%C3%A1cara+Santo+Ant%C3%B4nio,+S%C3%A3o+Paulo+-+SP,+04716-090/@-23.6350291,-46.7256191,14z/data=!3m1!4b1!4m5!3m4!1s0x94ce50e1f286d9c5:0xe208c58c1de66afa!8m2!3d-23.6350698!4d-46.7081095" id="bairro">  Chácara Santo Antônio - São Paulo / SP</a>
-        <br>
-        contato@processit.com.br - (11) 3294 - 2773
+      <ol>
+        <li><a href="https://www.processit.com.br/" id="site"> Process IT</a></li> 
+        <li><a href="https://www.google.com.br/maps/search/Avenida+das+na%C3%A7%C3%B5es+unidas,+18.001+-+CJ.+1808/@-23.5925779,-46.6942171,17z/data=!3m1!4b1" id="rua"> Avenida das nações unidas, 18.001 - CJ. 1808</a></li>
+        <li><a href="https://www.google.com.br/maps/place/Ch%C3%A1cara+Santo+Ant%C3%B4nio,+S%C3%A3o+Paulo+-+SP,+04716-090/@-23.6350291,-46.7256191,14z/data=!3m1!4b1!4m5!3m4!1s0x94ce50e1f286d9c5:0xe208c58c1de66afa!8m2!3d-23.6350698!4d-46.7081095" id="bairro">  Chácara Santo Antônio - São Paulo / SP</a></li>
+        <li><input id="Button1" type="button" value="contato@processit.com.br"
+          onclick = "parent.location='mailto:contato@processit.com.br'"/> - (11) 3294 - 2773</li>
+      </ol>
     </p>
   </footer>
 </body>
+</html>
